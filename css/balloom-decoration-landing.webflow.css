@@ -8682,6 +8682,9 @@ html.w-mod-js [data-ix="hide-lightbox"] {
 
   .hero-overlay-block {
     background-color: var(--_balloon-barn---primary);
+    background-image: url('../images/bg-balloon.jpg');
+    background-position: 0 0;
+    background-size: cover;
     padding: 90px 15px 110px;
   }
 
