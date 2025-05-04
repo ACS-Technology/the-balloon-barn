@@ -2,11 +2,11 @@
   --_balloon-barn---main: white;
   --_balloon-barn---secondary: #4ab4e2;
   --_balloon-barn---primary: #d9443f;
+  --_balloon-barn---neutral: #4e342e;
   --royal-blue: #1f6fff;
   --medium-orchid: #b75dda;
   --lime-green: #5ec045;
   --_balloon-barn---highlight: #f9cb40;
-  --_balloon-barn---neutral: #4e342e;
   --_balloon-barn---accent: oldlace;
 }
 
@@ -4992,6 +4992,24 @@ figcaption {
   z-index: 900;
   position: sticky;
   top: 0;
+}
+
+.heading, .paragraph-2 {
+  color: var(--_balloon-barn---neutral);
+}
+
+.button-3 {
+  background-color: var(--_balloon-barn---primary);
+  text-transform: uppercase;
+  border-radius: 14px;
+}
+
+.button-3:hover {
+  color: var(--_balloon-barn---main);
+}
+
+.button-3.w--current:hover {
+  box-shadow: 0 2px 5px 13px #0003;
 }
 
 html.w-mod-js [data-ix="hide-block-title"] {
